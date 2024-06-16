@@ -71,7 +71,7 @@ input:focus {
   transition: 0.2s;
   background-color: white;
   font-weight: bold;
-  color: black !important;
+  color: black;
   &:hover {
     background-color: var(--main-color);
     color: white;
