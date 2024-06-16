@@ -1,6 +1,6 @@
 import { Container, Card } from "react-bootstrap";
 import PropTypes from "prop-types";
-
+import img from "../assets/team-01.png";
 function Cards(props) {
   return (
     <Container className="my-3">
@@ -13,7 +13,7 @@ function Cards(props) {
                 variant="top"
                 style={{ width: "200px" }}
                 className="card-img"
-                src={item.imgUrl}
+                src={img}
               />
               <Card.Body style={{ textAlign: "right", position: "relative" }}>
                 <div className="d-flex justify-content-between">
