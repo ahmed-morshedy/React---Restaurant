@@ -68,10 +68,10 @@ input:focus {
   margin-right: 5px;
   border: 1px solid var(--main-color);
   border-radius: 4px;
-  cursor: pointer;
   transition: 0.2s;
   background-color: white;
   font-weight: bold;
+  color: black !important;
   &:hover {
     background-color: var(--main-color);
     color: white;
