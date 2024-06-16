@@ -5,7 +5,7 @@ export const Items = [
     description: "وصف الغداء ",
     price: "250 جنية ",
     category: "غداء ",
-    imgUrl: "/src/assets/team-01.png",
+    imgUrl: "src/assets/team-01.png",
   },
   {
     id: Math.random().floor,
@@ -13,7 +13,7 @@ export const Items = [
     description: "وصف الفطار ",
     price: "50 جنية ",
     category: "فطار ",
-    imgUrl: "/src/assets/team-01.png",
+    imgUrl: "src/assets/team-01.png",
   },
   {
     id: Math.random().floor,
@@ -21,7 +21,7 @@ export const Items = [
     description: "وصف العشاء ",
     price: "150 جنية ",
     category: "عشاء ",
-    imgUrl: "/src/assets/team-01.png",
+    imgUrl: "src/assets/team-01.png",
   },
   {
     id: Math.random().floor,
@@ -29,7 +29,7 @@ export const Items = [
     description: "وصف الغداء ",
     price: "450 جنية ",
     category: "غداء ",
-    imgUrl: "/src/assets/team-01.png",
+    imgUrl: "src/assets/team-01.png",
   },
   {
     id: Math.random().floor,
@@ -37,6 +37,6 @@ export const Items = [
     description: "وصف الفطار ",
     price: "30 جنية ",
     category: "فطار ",
-    imgUrl: "/src/assets/team-01.png",
+    imgUrl: "src/assets/team-01.png",
   },
 ];
