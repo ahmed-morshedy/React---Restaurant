@@ -5,7 +5,7 @@ export const Items = [
     description: "وصف الغداء ",
     price: "250 جنية ",
     category: "غداء ",
-    imgUrl: "src/assets/team-01.png",
+    imgUrl: "../src/assets/team-01.png",
   },
   {
     id: Math.random().floor,

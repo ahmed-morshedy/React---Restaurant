@@ -12,7 +12,7 @@ function Cards(props) {
                 variant="top"
                 style={{ width: "200px" }}
                 className="card-img"
-                src={"../src/assets/team-01.png"}
+                src={item.imgUrl}
               />
               <Card.Body style={{ textAlign: "right", position: "relative" }}>
                 <div className="d-flex justify-content-between">
