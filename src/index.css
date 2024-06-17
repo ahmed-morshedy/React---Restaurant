@@ -77,6 +77,10 @@ input:focus {
     background-color: var(--main-color);
   }
 }
+.active {
+  color: white;
+  background-color: var(--main-color);
+}
 
 .card-img {
   border-top-left-radius: 0;
