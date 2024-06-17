@@ -14,9 +14,16 @@ function App() {
       setItem(newItems);
     }
   }
+
+  function hanedlSearch(search) {
+    if (search !== "") {
+      const newItems = Items.filter((i) => i.description.includes(search));
+      setItem(newItems);
+    }
+  }
   return (
     <>
-      <Nav />
+      <Nav fillter={hanedlSearch} />
       <Header />
       <Cat fillter={hanedlCat} />
       <Cards data={item} />

@@ -8,12 +8,7 @@ function Cards(props) {
         props.data.map((item, id) => {
           return (
             <Card key={id} className="my-3 d-flex  flex-row-reverse">
-              <Card.Img
-                variant="top"
-                style={{ width: "200px" }}
-                className="card-img"
-                src={item.imgUrl}
-              />
+              <Card.Img variant="top" className="card-img" src={item.imgUrl} />
               <Card.Body style={{ textAlign: "right", position: "relative" }}>
                 <div className="d-flex justify-content-between">
                   <div className="text fw-bold">{item.price}</div>
