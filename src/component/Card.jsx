@@ -1,6 +1,6 @@
 import { Container, Card } from "react-bootstrap";
 import PropTypes from "prop-types";
-import img from "../assets/team-01.png";
+
 function Cards(props) {
   return (
     <Container className="my-3">

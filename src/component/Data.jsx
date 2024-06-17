@@ -1,3 +1,4 @@
+import img from "../assets/team-01.png";
 export const Items = [
   {
     id: Math.random().floor,
@@ -5,7 +6,7 @@ export const Items = [
     description: "وصف الغداء ",
     price: "250 جنية ",
     category: "غداء ",
-    imgUrl: "../src/assets/team-01.png",
+    imgUrl: img,
   },
   {
     id: Math.random().floor,

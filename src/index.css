@@ -73,8 +73,8 @@ input:focus {
   font-weight: bold;
   color: black;
   &:hover {
-    background-color: var(--main-color);
     color: white;
+    background-color: var(--main-color);
   }
 }
 
