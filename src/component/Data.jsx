@@ -27,31 +27,7 @@ export const Items = [
     category: "فطار",
     imgUrl: break01,
   },
-  {
-    id: Math.random().floor,
-    title: "وجبة العشاء ",
-    description:
-      " وجبة عشاء غنية بالمواد الصحية تحتوي علي الجبن و قطعة من اللحم الابيض",
-    price: "150 جنية ",
-    category: "عشاء",
-    imgUrl: dinner01,
-  },
-  {
-    id: Math.random().floor,
-    title: "وجبة العشاء ",
-    description: " وجبة عشاء تحتوي علي أرز مع دجاج ",
-    price: "320 جنية ",
-    category: "عشاء",
-    imgUrl: dinner02,
-  },
-  {
-    id: Math.random().floor,
-    title: "وجبة العشاء ",
-    description: " وجبة عشاء تحتوي علي قطع من اللحم غنية بالجبن ",
-    price: "190 جنية ",
-    category: "عشاء",
-    imgUrl: dinner03,
-  },
+
   {
     id: Math.random().floor,
     title: "وجبة الغداء ",
@@ -83,5 +59,31 @@ export const Items = [
     price: "30 جنية ",
     category: "فطار",
     imgUrl: break03,
+  },
+
+  {
+    id: Math.random().floor,
+    title: "وجبة العشاء ",
+    description:
+      " وجبة عشاء غنية بالمواد الصحية تحتوي علي الجبن و قطعة من اللحم الابيض",
+    price: "150 جنية ",
+    category: "عشاء",
+    imgUrl: dinner01,
+  },
+  {
+    id: Math.random().floor,
+    title: "وجبة العشاء ",
+    description: " وجبة عشاء تحتوي علي قطع من اللحم غنية بالجبن ",
+    price: "190 جنية ",
+    category: "عشاء",
+    imgUrl: dinner03,
+  },
+  {
+    id: Math.random().floor,
+    title: "وجبة العشاء ",
+    description: " وجبة عشاء تحتوي علي أرز مع دجاج ",
+    price: "320 جنية ",
+    category: "عشاء",
+    imgUrl: dinner02,
   },
 ];
